@@ -1,0 +1,196 @@
+/* Resetting default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background:url(https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif);
+    background-repeat: no-repeat;
+    background-size: 208vh;
+    color: black;   
+}
+
+.title{
+    padding-top: 50px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em; 
+}
+
+.copy{
+    margin-top: 45px;
+}
+
+body{ 
+    background:url(https://wallpapers.com/images/hd/dark-victorian-damask-black-pattern-57ok3rgl5b1c5lcl.jpg);
+    background-repeat: no-repeat;
+    background-size:385vh;
+}
+
+
+/* Styling header */
+header {
+    margin-top:55px;
+}
+
+/* Styling navigation */
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 55px;
+}
+
+
+nav ul li a{  
+    text-align: center;
+    font-size: 30px;
+    color: #181818;
+    text-decoration: none;
+    transition: font-size 0.5s, border 0.2s,background 0.2s;
+}
+
+.home{
+       background: rgb(6, 218, 6);
+       font-size: 29px;
+       padding: 5px 30px;
+       border:double rgb(69, 66, 66);
+       border-radius: 8px;
+       box-shadow: 0 0 5px #00ff26,
+                   0 0 10px #0dcd17,
+                   0 0 15px #0b9d06,
+                   0 0 25px #089622;
+}
+
+.home:hover{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background:  rgb(41, 158, 2);
+    padding: 5px 45px;
+}
+
+.Marvel{
+    background: rgb(218, 6, 6);
+    font-size: 29px;
+    padding: 5px 25px;
+    border:double rgb(59, 56, 56);
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ff0000,
+                0 0 10px #cd0d0d,
+                0 0 15px #9d0606,
+                0 0 25px #960808;
+}
+
+.Marvel:hover{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background:  rgb(166, 2, 2);
+    padding: 5px 35px;
+}
+
+.Bollywood{
+    background: rgb(44, 115, 238);
+    font-size: 29px;
+    padding: 5px 25px;
+    border:double rgb(59, 56, 56);
+    border-radius: 8px;
+    box-shadow: 0 0 5px #0084ff,
+                0 0 10px #0d77cd,
+                0 0 15px #06549d,
+                0 0 25px #086b96;
+}
+
+.Bollywood:hover{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background:  rgb(2, 79, 166);
+    padding: 5px 35px;
+}
+
+.RMovies{
+    background: rgb(235, 238, 44);
+    font-size: 29px;
+    padding: 5px 20px;
+    border:double rgb(59, 56, 56);
+    border-radius: 8px;
+    box-shadow: 0 0 5px #eeff00,
+                0 0 10px #c3cd0d,
+                0 0 15px #9d9d06,
+                0 0 25px #889608;
+}
+
+.RMovies:hover{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background:  rgb(166, 147, 2);
+    padding: 5px 35px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(242, 240, 240);
+}
+
+a:hover{
+    color:rgb(218, 0, 0);
+}
+/* Styling section */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+section div {
+    padding-top:70px;
+    text-align: center;
+    margin: 11px;
+}
+
+section div img {
+    width: 170px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 5px 7px 8px black;
+    transition: transform 0.8s;
+}
+
+section div img:hover{
+    transform:scale(1.10)
+}
+
+section div h3 {
+    margin-top: 10px;
+}
+
+/* Styling footer */
+footer {
+    background:url(https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif);
+    background-repeat: no-repeat;
+    background-size:208vh;
+    padding: 10px;
+}
+
+.container {
+    color:white;
+    background: #1a1818;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Page input{
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    background: purple;
+    color:white;
+}
